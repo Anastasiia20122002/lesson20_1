@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+@mixin rubik48Bold {
+  font-size: 48px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+@mixin rubik20Bold {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+@mixin rubik16Bold {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+@mixin rubik11Bold {
+  font-size: 12px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+@mixin blogger17medium {
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+@mixin kelsonsans20 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+@mixin kelsonsans18 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+@mixin kelsonsans16 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,129 @@
+@import "./styles/colors";
+@import "./styles/fonts";
+.App {
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  background-color: $primary_gray;
+  .first {
+    justify-content: center;
+    text-align: center;
+    padding-top: 137px;
+    @include rubik48Bold;
+    color: $green_accent;
+  }
+  .second {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+  }
+  .second h1 {
+    @include kelsonsans18;
+    color: $white_accent;
+    max-width: 370px;
+    min-height: 55px;
+    text-align: center;
+  }
+  .sign_up {
+    text-align: center;
+    color: $green_accent;
+    margin-top: 60px;
+    @include kelsonsans16;
+  }
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .image input {
+    color: $white_accent;
+    margin-top: 37px;
+    width: 304px;
+    border: 0;
+    background-color: $primary_gray;
+  }
+  .line {
+    margin-top: 9px;
+    border: 1px solid $green_accent;
+    width: 304px;
+  }
+  .third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .third_text {
+    text-align: center;
+    max-width: 318px;
+    min-height: 52px;
+    @include rubik11Bold;
+    color: $white_accent;
+  }
+  .fourth {
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+
+    @include rubik16Bold;
+    color: $white_accent;
+  }
+  .text {
+    @include rubik16Bold;
+    color: $green_accent;
+  }
+  .three-images {
+    display: flex;
+    justify-content: center;
+  }
+  .first_img {
+    margin: 13px;
+    max-width: 9px;
+    max-height: 9px;
+  }
+  .second_img {
+    margin: 13px;
+    max-width: 9px;
+    max-height: 9px;
+  }
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

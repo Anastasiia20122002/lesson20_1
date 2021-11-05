@@ -1,0 +1,10 @@
+@import "./colors";
+@import "./fonts";
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.line {
+  width: 305px;
+  border: 1px solid $green_accent;
+}
